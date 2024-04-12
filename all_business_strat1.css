@@ -1,0 +1,106 @@
+@font-face {
+  font-family: mm;
+  src: url(head.ttf);
+}
+
+.service-main,.video-right-top,.plat-heading,.blog-main-heading ,.problem-main-heading,.fifth-box-heading,.sixth-box-heading,.seventh-box-heading,.eighth-box-heading,.crousel-sub,.crousel-main,.indus1 ,.indus2,.indus3,.digit1,.digit2,.digit3 {
+  font-family: mm; 
+}
+@font-face {
+  font-family: nn;
+  src: url(para.ttf);
+}
+.service-sub,.video-right-bottom,.video-left-top,.video-left-bottom,.problem-sub-heading,.blog-sub-heading, .fifth-box-para , .sixth-box-para , .seventh-box-para,.para1 ,.para2,.para3 ,.btn-8,.button-7,.button-6,.btn-5,.blogButt1,.blogButt2,.btn-1,.problemButt1,.problemButt2,.crousel-button,.video-right-name,.card-heading,.card-info,.category-name,.comment-name,.service-name{
+  font-family: nn;
+}
+/* business */
+.fifth-box {
+  margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fifth-box-heading {
+
+  font-size: 45px;
+
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.headandpara{
+  display: flex;
+  justify-content: center;
+
+}
+.fifth-box-para {
+  
+
+  margin-bottom: 30px;
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+}
+
+.fifth-box> img {
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.grid-wrapper > div > img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.grid-wrapper {
+display: grid;
+grid-gap: 10px;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-auto-rows: 200px;
+grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+grid-column: span 2;
+}
+.grid-wrapper .tall {
+grid-row: span 2;
+}
+.grid-wrapper .big {
+grid-column: span 2;
+grid-row: span 2;
+}
+
+
+.btn-5{
+  width: 180px;
+  background-color: #ffce33;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 12px 20px 12px 20px;
+  margin-left: auto;
+border:none;
+}
+.btn-5:hover{
+  background-color: green;
+  color: white;
+}
+
+  
+.btn5{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}

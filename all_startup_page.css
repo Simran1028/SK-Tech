@@ -1,0 +1,147 @@
+@font-face {
+    font-family: mm;
+    src: url(head.ttf);
+}
+
+.service-main,.video-right-top,.plat-heading,.blog-main-heading ,.problem-main-heading,.fifth-box-heading,.sixth-box-heading,.seventh-box-heading,.eighth-box-heading,.crousel-sub,.crousel-main,.indus1 ,.indus2,.indus3,.digit1,.digit2,.digit3 {
+    font-family: mm; 
+}
+@font-face {
+    font-family: nn;
+    src: url(para.ttf);
+}
+.service-sub,.video-right-bottom,.video-left-top,.video-left-bottom,.problem-sub-heading,.blog-sub-heading, .fifth-box-para , .sixth-box-para , .seventh-box-para,.para1 ,.para2,.para3 ,.btn-8,.button-7,.button-6,.btn-5,.blogButt1,.blogButt2,.btn-1,.problemButt1,.problemButt2,.crousel-button,.video-right-name,.card-heading,.card-info,.category-name,.comment-name,.service-name{
+    font-family: nn;
+}
+
+
+/* eighth-box */
+
+.eighth-box {
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+
+}
+.eighth{
+ margin-bottom:50px;
+}
+.eighth-box-heading {
+    font-size: 45px;
+  
+    text-align: center;
+}
+
+
+
+
+.eighth-box-pictures {
+    
+    display: grid;
+    grid-gap:5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  
+
+}
+
+.logo1 ,.logo2,.logo3{
+    font-size: 50px;
+    /* padding:10px; */
+}
+
+.digit1,.digit2,.digit3 {
+    font-size: 50px;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.industry1 ,.industry2,.industry3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding:10px;
+    width: 100%;
+   
+
+}
+
+.industry ,.market1,.market2{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.indus1 ,.indus2,.indus3{
+    font-size: 20px;
+    /* font-weight: bold; */
+   padding: 10px;
+
+}
+
+.para1 ,.para2,.para3{
+    font-size: 18px;
+    color: grey;
+    padding: 10px;
+
+  
+
+}
+
+
+
+.industry:hover {
+    z-index: 0;
+
+    box-shadow: 5px 8px 19px rgba(214, 116, 24, 0.5);
+}
+
+.market1:hover {
+    z-index: 0;
+
+    box-shadow: 5px 8px 19px rgba(214, 116, 24, 0.5);
+}
+
+.market2:hover {
+    z-index: 0;
+
+    box-shadow: 5px 8px 19px rgba(214, 116, 24, 0.5);
+}
+
+.btn8 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.btn-8 {
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    border: 2px solid black;
+    width: 180px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 22px;
+    padding: 12px 20px 12px 20px;
+    margin-left: auto;
+     
+
+    
+}
+.btn-8:hover{
+    background-color: green;
+    color: white;
+}
+
+@media only screen and (max-width:660px){
+    .eighth-box-pictures{
+        margin-bottom:100px;
+    }
+   
+}
